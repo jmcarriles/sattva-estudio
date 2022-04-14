@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Mono', monospace;
+
+}
+body {
+    background-color:   #fbe3e3   ;
+
+    
+}
+main {
+    margin-top: 170px;
+    
+
+}
+
+
+.sattvaLogo {
+    width: 100px;
+    margin-left: 20px;
+
+}
+
+/* NAV */
+
+
+.barraNavegacion {
+    top: 0%;
+    position: fixed;
+    width: 100%;
+}
+
+.barraNavegacion__lista__item--logo {
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.barraNavegacion__lista {
+    list-style: none;
+    background-color: #bcb5ce;
+}
+
+.barra__nav__container {
+    background-color: #bb7d8e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.barraNavegacion__lista__item {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -10px;
+    font-size: 18px;
+    list-style: none;
+}
+
+.barraNavegacion__lista__item a {
+    text-decoration: none;
+
+}
+
+.active {
+    background-color: #a83f56;
+    height: 100%;
+
+}
+
+.barraNavegacion__lista__item:hover:not(.active) {
+    background-color: rgb(202, 49, 82);
+
+}
+
+/* ARTICULO PRINCIPAL  */
+
+.tituloPrincipal {
+    font-style: bold;
+    padding-top: 25px;
+    text-align: center;
+
+}
+
+.articuloPrincipal	 {
+    background-image: url(/images/testbackground.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fbe3e3;
+    
+
+}
+
+
+.articuloPrincipal p {
+
+    padding: 15px 300px;
+    font-size: 20px;
+    word-spacing: 1px;
+    text-align: justify;
+    
+
+
+}
+
+/* ARTICULO CLASES VIRTUALES */
+
+.articulo{
+    background-color: #bcb5ce;
+}
+.articulo h2 {
+
+    margin: 10px 0px 10px 0px;
+   
+    
+}
+
+.articulo h5 {
+
+    margin: 10px 50% 10px 0px;
+    background-color: #bcb5ce;
+    
+}
+
+.articuloTiposYoga {
+    
+    margin: 20px 50% 10px 0px;
+    
+}
+
+/* FOOTER  */
+
+.footer {
+    
+    width: 100%;
+    bottom: 0;
+    
+    
+}
+
+.footer__dir {
+    text-align: center;
+    background-color: #bcb5ce;
+    padding: 58px 0 54px;
+
+
+}
+
+.footer__parrafo__ramos {
+    display: inline-block;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.titulo__dir {
+    text-align: left;
+
+}
+
+
+.footer__parrafo__haedo {
+    display: inline-block;
+    padding-right: 30px;
+    text-align: left;
+}
+
+
+.footer__lista__redes {
+    padding-top: 10px;
+    text-align: center;
+    margin: 0%;
+    background-color: #bcb5ce;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.footer__lista__redes__item {
+
+    display: inline-block;
+
+}
+
+/* GALERIA */
+
+.gallery {
+    margin: 50px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.gallery img {
+
+    width: 500px;
+}
+
+/* FORMULARIO DE CONTACTO */
+
+.formularioContacto {
+
+    width: 20%;
+    padding: 20px;
+    display: inline-block;
+}
+
+.formularioContacto input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #bb7d8e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(202, 49, 82);
+
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin: 8px 0
+  }
+
+  .mapContacto {
+    padding: 12px 20px;
+  }
+
+  .mapContacto h5 {
+      margin-bottom: 20px;
+  }
+
+  /* ARTICULO HORARIOS PRESENCIALES */
+
+  .contenedorHorarios{
+      border-bottom: black 1px solid;
+      width: 50%;
+  }
+
+
+
+  .articuloHorarios h4 {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .articuloHorarios p {
+    margin: 20px;
+    
+  }
+  .contenedorRecomendaciones {
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .contenedorRecomendaciones h3 {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .principal {
+
+    position: fixed;
+  }
