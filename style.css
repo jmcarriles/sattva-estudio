@@ -4,9 +4,14 @@
     font-family: 'Red Hat Mono', monospace;
 
 }
+html{
+    scroll-behavior: smooth;
+  }
+  
 body {
     background-color:   #fbe3e3   ;
-
+    position: relative;
+    min-height: 100vh;
     
 }
 main {
@@ -138,8 +143,9 @@ main {
 
 .footer {
     
-    width: 100%;
+    width: 100vw;
     bottom: 0;
+    position: absolute;
     
     
 }
@@ -288,7 +294,3 @@ main {
     margin: 10px 0px 10px 0px;
   }
 
-  .principal {
-
-    position: fixed;
-  }
