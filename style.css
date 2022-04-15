@@ -71,6 +71,7 @@ main {
     margin-right: -10px;
     font-size: 18px;
     list-style: none;
+    color: black;
 }
 
 .barraNavegacion__lista__item a {
@@ -80,6 +81,7 @@ main {
 
 .active {
     background-color: #a83f56;
+    text-decoration: none;
 
 
 }
