@@ -164,7 +164,7 @@ article p {
 
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
 
     .principal {
         display: grid;
@@ -182,10 +182,14 @@ article p {
 
     }
 
-
-
 }
 
+@media only screen and (min-width: 1500px) {
+
+    .imgSecundaria {
+        display: none ;
+    }
+}
 /* ARTICULO CLASES VIRTUALES */
 
 .contenedorArticuloTipoYoga {
@@ -200,7 +204,7 @@ article p {
     height: 400px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 
     .contenedorArticuloTipoYoga {
         display: grid;
