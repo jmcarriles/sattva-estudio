@@ -11,8 +11,8 @@ html {
 
 body {
     background-color: #fbe3e3;
-    position: relative;
-    min-height: 100vh;
+    width: 100%;
+
 
 }
 
@@ -71,7 +71,7 @@ main {
     margin-right: -10px;
     font-size: 18px;
     list-style: none;
-    
+
 }
 
 .barraNavegacion__lista__item a {
@@ -91,7 +91,7 @@ main {
 
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1100px) {
 
     .barra__nav__container {
         background-color: #bb7d8e;
@@ -99,13 +99,14 @@ main {
         flex-direction: column;
         justify-content: space-evenly;
         flex-wrap: wrap;
-    
+        margin-left: -2rem;
+
     }
 
     .barraNavegacion__lista__item--logo {
 
         display: flex;
-        justify-content:left;
+        justify-content: left;
         padding-bottom: 10px;
     }
 
@@ -120,27 +121,27 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    
-    
+
+
 }
 
 .principal img {
-   padding-top: 80px;
-   width: 750px;
-   height: 750px;
-   
-   
+    padding-top: 80px;
+    width: 75%;
+    height: 75%;
+
+
 }
 
 
-.tituloPrincipal{
+.tituloPrincipal {
     font-style: bold;
     padding-top: 25px;
     text-align: center;
 
 }
 
-.tituloSecundario{
+.tituloSecundario {
     font-style: bold;
     padding-top: 25px;
     text-align: center;
@@ -164,21 +165,52 @@ article p {
 
 
 }
-@media only screen and (max-width: 1500px){
+
+@media only screen and (max-width: 1500px) {
 
     .principal {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
-        
-        
-    }
-    
 
-   
+
+    }
+
+
+
 }
 
 /* ARTICULO CLASES VIRTUALES */
+
+.contenedorArticuloTipoYoga {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.contenedorArticuloTipoYoga iframe {
+    width: 600px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .contenedorArticuloTipoYoga {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: normal;
+        align-items: center;
+    }
+
+    .contenedorArticuloTipoYoga iframe {
+        width: 100%;
+        
+        
+
+
+    }
+}
 
 .articulo {
     background-color: #bcb5ce;
@@ -186,31 +218,32 @@ article p {
 
 .articulo h2 {
 
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px px;
+    background-color: #fbe3e3;
 
 
 }
 
-.articulo h5 {
+.articulo h5,
+h4 {
 
-    margin: 10px 50% 10px 0px;
+    margin: 10px 50% 10px 10px;
     background-color: #bcb5ce;
 
 }
 
 .articuloTiposYoga {
 
-    margin: 20px 50% 10px 0px;
+    margin: 20px 0px 10px 10px;
 
 }
 
 /* FOOTER  */
 
-.footer {
-
-    width: 100%;
+footer {
     bottom: 0;
-   
+    width: 100%;
+    background-color: #bcb5ce;
 }
 
 
@@ -220,16 +253,20 @@ article p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    
+    width: 100%;
+
 }
-@media only screen and (max-width: 750px){
+
+@media only screen and (max-width: 750px) {
     .footer__dir {
         background-color: #bcb5ce;
         padding: 58px 0 54px;
         display: grid;
+        gap: 10px;
         grid-template-columns: 1fr;
-        justify-items: center;
-}
+        justify-items: left;
+        width: 100%;
+    }
 }
 
 .footer__lista__redes {
@@ -237,8 +274,6 @@ article p {
     text-align: center;
     margin: 0%;
     background-color: #bcb5ce;
-    justify-self: flex-end;
-    display: flex;
     justify-content: center;
 
 
@@ -271,9 +306,10 @@ article p {
 
 .formularioContacto {
 
-    width: 20%;
+    width: 80%;
     padding: 20px;
     display: inline-block;
+    align-self: center;
 }
 
 .formularioContacto input,
@@ -315,8 +351,28 @@ textarea {
     margin: 8px 0
 }
 
+
 .mapContacto {
     padding: 12px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 750px) {
+    .mapContacto {
+        padding: 12px 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        gap: 20px;
+    }
+}
+
+.mapContacto iframe {
+    width: 90%;
 }
 
 .mapContacto h5 {
@@ -327,7 +383,7 @@ textarea {
 
 .contenedorHorarios {
     border-bottom: black 1px solid;
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -335,10 +391,12 @@ textarea {
 .articuloHorarios h4 {
     margin: 20px;
     text-align: center;
+    background-color: #bcb5ce;
 }
 
 .articuloHorarios p {
     margin: 20px;
+    text-align: center;
 
 }
 
