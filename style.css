@@ -127,9 +127,8 @@ main {
 
 .principal img {
     padding-top: 80px;
-    width: 75%;
-    height: 75%;
-
+    width: 100%;
+    
 
 }
 
@@ -159,19 +158,26 @@ article p {
 
     padding: 15px 15px;
     font-size: 20px;
-    word-spacing: 1px;
-    text-align: justify;
+    text-align:left;
 
 
 
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1100px) {
 
     .principal {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
+
+
+    }
+
+    .principal img {
+
+        width: 100%;
+        height: auto;
 
 
     }
@@ -205,9 +211,6 @@ article p {
 
     .contenedorArticuloTipoYoga iframe {
         width: 100%;
-        
-        
-
 
     }
 }
