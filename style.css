@@ -51,7 +51,8 @@ main {
 
 .barraNavegacion__lista {
     list-style: none;
-    background-color: #bcb5ce;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);
 }
 
 .barra__nav__container {
@@ -128,7 +129,7 @@ main {
 .principal img {
     padding-top: 80px;
     width: 100%;
-    
+
 
 }
 
@@ -158,7 +159,7 @@ article p {
 
     padding: 15px 15px;
     font-size: 20px;
-    text-align:left;
+    text-align: left;
 
 
 
@@ -187,9 +188,10 @@ article p {
 @media only screen and (min-width: 1500px) {
 
     .imgSecundaria {
-        display: none ;
+        display: none;
     }
 }
+
 /* ARTICULO CLASES VIRTUALES */
 
 .contenedorArticuloTipoYoga {
@@ -375,7 +377,7 @@ textarea {
 }
 
 .mapContacto h5 {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -392,7 +394,7 @@ margin-bottom: 20px;
         width: 90%;
         height: 90%;
     }
-    
+
 }
 
 
