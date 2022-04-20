@@ -52,7 +52,7 @@ main {
 .barraNavegacion__lista {
     list-style: none;
     background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);
 }
 
 .barra__nav__container {
@@ -252,12 +252,14 @@ h4 {
 footer {
     bottom: 0;
     width: 100%;
-    background-color: #bcb5ce;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);
 }
 
 
 .footer__dir {
-    background-color: #bcb5ce;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);
     padding: 58px 0 54px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -268,7 +270,8 @@ footer {
 
 @media only screen and (max-width: 750px) {
     .footer__dir {
-        background-color: #bcb5ce;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);;
         padding: 58px 0 54px;
         display: grid;
         gap: 10px;
@@ -282,7 +285,8 @@ footer {
     padding-top: 10px;
     text-align: center;
     margin: 0%;
-    background-color: #bcb5ce;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);
     justify-content: center;
 
 
