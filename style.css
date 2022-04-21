@@ -51,8 +51,8 @@ main {
 
 .barraNavegacion__lista {
     list-style: none;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
 }
 
 .barra__nav__container {
@@ -61,8 +61,8 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
-    
+
+
 
 }
 
@@ -88,14 +88,14 @@ main {
     background-color: #a83f56;
     text-decoration: none;
     border-bottom: 3px solid #a83f56;
-    
+
 
 }
 
 .barraNavegacion__lista__item:hover:not(.active) {
     background-color: rgb(202, 49, 82);
-    color: #444; 
-  	border-bottom: 3px solid #a0465a;
+    color: #444;
+    border-bottom: 3px solid #a0465a;
 }
 
 
@@ -108,7 +108,7 @@ main {
         justify-content: space-evenly;
         flex-wrap: wrap;
         margin-left: -2rem;
-    
+
 
     }
 
@@ -260,14 +260,14 @@ h4 {
 footer {
     bottom: 0;
     width: 100%;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
 }
 
 
 .footer__dir {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
     padding: 58px 0 54px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -278,8 +278,9 @@ footer {
 
 @media only screen and (max-width: 750px) {
     .footer__dir {
-        background: rgb(255,255,255);
-        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
+        ;
         padding: 58px 0 54px;
         display: grid;
         gap: 10px;
@@ -293,8 +294,8 @@ footer {
     padding-top: 10px;
     text-align: center;
     margin: 0%;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(188,181,206,1) 53%, rgba(188,181,206,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
     justify-content: center;
 
 
