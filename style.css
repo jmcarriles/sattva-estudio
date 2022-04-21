@@ -45,8 +45,9 @@ main {
 .barraNavegacion__lista__item--logo {
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-bottom: 10px;
+    margin-left: 10px;
 }
 
 .barraNavegacion__lista {
@@ -59,7 +60,7 @@ main {
     background-color: #bb7d8e;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-wrap: wrap;
 
 
