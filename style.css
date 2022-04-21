@@ -45,7 +45,7 @@ main {
 .barraNavegacion__lista__item--logo {
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-bottom: 10px;
 }
 
