@@ -12,20 +12,20 @@ html {
 body {
     background-color: #fbe3e3;
     width: 100%;
+    position: relative;
 
 
 }
 
 main {
-    margin-top: 170px;
+    margin-top: 25px;
 
 
 }
 
 
 .sattvaLogo {
-    width: 100px;
-    margin-left: 20px;
+    width: 55px;
 
 }
 
@@ -33,30 +33,54 @@ main {
 
 /* NAV */
 
+.navbar {
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
+}
 
-.barraNavegacion {
+.custom {
+ color: aqua;
+}
+.contacto {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: flex-start;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .contacto {
+        justify-content: flex-end;
+    }
+}
+
+/* .barraNavegacion {
     top: 0%;
     position: fixed;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-}
+} */
 
-.barraNavegacion__lista__item--logo {
+/* .barraNavegacion__lista__item--logo {
 
     display: flex;
     justify-content: flex-start;
     padding-bottom: 10px;
     margin-left: 33px;
-}
+} */
 
-.barraNavegacion__lista {
+/* .barraNavegacion__lista {
     list-style: none;
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
-}
+} */
 
-.barra__nav__container {
+/* .barra__nav__container {
     background-color: #bb7d8e;
     display: flex;
     flex-direction: row;
@@ -65,9 +89,9 @@ main {
 
 
 
-}
+} */
 
-.barraNavegacion__lista__item {
+/* .barraNavegacion__lista__item {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
@@ -78,22 +102,22 @@ main {
     border-bottom: 3px solid transparent;
     transition: all .5s ease;
 
-}
+} */
 
-.barraNavegacion__lista__item a {
+/* .barraNavegacion__lista__item a {
     text-decoration: none;
     color: black;
 }
-
-.active {
+ */
+/* .active {
     background-color: #a83f56;
     text-decoration: none;
     border-bottom: 3px solid #a83f56;
 
 
-}
+} */
 
-.barraNavegacion__lista__item:hover:not(.active) {
+/* .barraNavegacion__lista__item:hover:not(.active) {
     background-color: rgb(202, 49, 82);
     color: #444;
     border-bottom: 3px solid #a0465a;
@@ -124,7 +148,7 @@ main {
         margin-top: 336px;
     }
 }
-
+ */
 /* ARTICULO PRINCIPAL  */
 
 .principal {
@@ -258,15 +282,21 @@ h4 {
 
 /* FOOTER  */
 
-footer {
+.custom-footer{
+    position: absolute;
     bottom: 0;
     width: 100%;
+    height: fit-content;
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
 }
 
+.btn-redes {
+    border-radius: 11.25rem;
+}
 
-.footer__dir {
+
+/* .footer__dir {
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
     padding: 58px 0 54px;
@@ -306,7 +336,7 @@ footer {
 
     display: inline-block;
 
-}
+} */
 
 /* GALERIA */
 
