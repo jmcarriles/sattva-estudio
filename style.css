@@ -111,81 +111,6 @@ body {
 }
 
 
-/* .principal {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-
-
-}
-
-.principal img {
-    padding-top: 80px;
-    width: 100%;
-
-
-}
-
-
-.tituloPrincipal {
-    font-style: bold;
-    padding-top: 25px;
-    text-align: center;
-
-
-}
-
-.tituloSecundario {
-    font-style: bold;
-    padding-top: 25px;
-    text-align: center;
-
-}
-
-article {
-    background-color: #fbe3e3;
-
-
-}
-
-
-article p {
-
-    padding: 15px 15px;
-    font-size: 20px;
-    text-align: left;
-
-
-
-}
-
-@media only screen and (max-width: 1000px) {
-
-    .principal {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-
-
-    }
-
-    .principal img {
-
-        width: 100%;
-        height: auto;
-
-
-    }
-
-}
-
-@media only screen and (min-width: 1500px) {
-
-    .imgSecundaria {
-        display: none;
-    }
-} */
-
 /* ARTICULO CLASES VIRTUALES */
 
 .contenedorArticuloTipoYoga {
@@ -243,62 +168,16 @@ h4 {
 
 /* FOOTER  */
 
-.custom-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: fit-content;
+.custom-footer{
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
+    border-bottom:none;
 }
-
-.btn-redes {
-    border-radius: 11.25rem;
-    border: solid transparent;
-}
+ .border-footer {
+    border-bottom:1px solid black;
+ }
 
 
-/* .footer__dir {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
-    padding: 58px 0 54px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    width: 100%;
-
-}
-
-@media only screen and (max-width: 750px) {
-    .footer__dir {
-        background: rgb(255, 255, 255);
-        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
-        ;
-        padding: 58px 0 54px;
-        display: grid;
-        gap: 10px;
-        grid-template-columns: 1fr;
-        justify-items: left;
-        width: 100%;
-    }
-}
-
-.footer__lista__redes {
-    padding-top: 10px;
-    text-align: center;
-    margin: 0%;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
-    justify-content: center;
-
-
-}
-
-.footer__lista__redes__item {
-
-    display: inline-block;
-
-} */
 
 /* GALERIA */
 
