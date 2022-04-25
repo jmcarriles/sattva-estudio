@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #fbe3e3;
+    background-color: white;
     width: 100%;
     position: relative;
 
@@ -76,10 +76,12 @@ body {
     justify-content: flex-end;
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
+    font-weight: 500;
 }
 
 .navbar-nav {
     align-items: center;
+    
 }
 @media (min-width: 992px){
 
