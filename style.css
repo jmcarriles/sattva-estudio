@@ -27,6 +27,8 @@ body {
 
 .banner {
     padding: 110px;
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: white;
     font-size: 25px;
@@ -42,6 +44,29 @@ body {
     }
 }
 
+.titleBanner {
+
+    animation: 4s animacionBanner ease-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes animacionBanner {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
 /* NAV */
 
 
