@@ -20,7 +20,7 @@ body {
 
 }
 
-main{
+main {
     height: 100%;
 }
 
@@ -41,7 +41,7 @@ main{
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url(./images/yoga-banner-home99.jpg);
-  }
+}
 
 @media only screen and (max-width: 992px) {
     .banner {
@@ -58,21 +58,25 @@ main{
 
 @keyframes animacionBanner {
     0% {
-      opacity: 0;
-      transform: translateY(80%);
+        opacity: 0;
+        transform: translateY(80%);
     }
+
     20% {
-      opacity: 0.25;
+        opacity: 0.25;
     }
+
     50% {
-      opacity: 0.75;
-      transform: translateY(0%);
+        opacity: 0.75;
+        transform: translateY(0%);
     }
+
     100% {
-      opacity: 1;
-      transform: translateY(0%);
+        opacity: 1;
+        transform: translateY(0%);
     }
-  }
+}
+
 /* NAV */
 
 
@@ -80,31 +84,60 @@ main{
 .navbar {
     font-size: 20px;
     justify-content: flex-end;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
     font-weight: 500;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
-    color:red;
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        font-size: 20px;
+        justify-content: flex-end;
+        background-color: #bcb5ce;
+        opacity: 5;
+        font-weight: 500;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 10%, rgba(188, 181, 206, 1) 45%, rgba(188, 181, 206, 1) 100%);
+    }
+
 }
 
-.nav-link{
-    transition: color 1s;
+@media only screen and (min-width: 992px) {
+
+
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: black;
+        border-bottom: 1.5px solid #bcb5ce;
+        transition: border-bottom .15s;
+        padding-bottom: 4px;
+
+    }
+
+    .active {
+        color: black;
+        border-bottom: 1.5px solid #bcb5ce;
+        transition: border-bottom .15s;
+        padding-bottom: 4px;
+
+    }
 }
+
+
 .navbar-nav {
     align-items: center;
-    
+
 }
-@media (min-width: 992px){
+
+@media (min-width: 992px) {
 
     .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
 }
-}
-.navbar-collapse{
-    justify-content: flex-start;
+
+.navbar-collapse {
+    justify-content: center;
 }
 
 @media only screen and (min-width: 992px) {
@@ -112,6 +145,7 @@ main{
     .contacto {
         justify-content: flex-end;
     }
+
     .sattvaLogo {
         margin-left: 0;
     }
@@ -183,17 +217,18 @@ h4 {
 
 /* FOOTER  */
 
-.custom-footer{
+.custom-footer {
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
-    border-bottom:none;
-    bottom:0;
+    border-bottom: none;
+    bottom: 0;
     position: relative;
 
 }
- .border-footer {
-    border-bottom:1px solid black;
- }
+
+.border-footer {
+    border-bottom: 1px solid black;
+}
 
 
 
@@ -247,7 +282,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: rgb(202, 49, 82);
+    background-color: #bb7d8e;
 
 }
 
@@ -330,4 +365,3 @@ textarea {
 .contenedorRecomendaciones h3 {
     margin: 10px 0px 10px 0px;
 }
-
