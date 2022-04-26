@@ -163,59 +163,20 @@ main {
 
 /* ARTICULO CLASES VIRTUALES */
 
-.contenedorArticuloTipoYoga {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: center;
+
+.iframe-custom {
+    width: 100%;
+    height: 500px;
 }
 
-.contenedorArticuloTipoYoga iframe {
-    width: 600px;
-    height: 400px;
+.contenedorTiposYoga{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(321deg, rgba(255, 255, 255, 1) 0%, rgba(195, 192, 203, 1) 42%, rgba(188, 181, 206, 1) 52%, rgba(178, 168, 203, 1) 70%, rgba(162, 148, 198, 1) 87%);
 }
 
-@media only screen and (max-width: 1000px) {
-
-    .contenedorArticuloTipoYoga {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: normal;
-        align-items: center;
-    }
-
-    .contenedorArticuloTipoYoga iframe {
-        width: 100%;
-
-    }
+.col-lg-6 p {
+    font-size: large;
 }
-
-.articulo {
-    background-color: #bcb5ce;
-}
-
-.articulo h2 {
-
-    margin: 10px 0px 10px px;
-    background-color: #fbe3e3;
-
-
-}
-
-.articulo h5,
-h4 {
-
-    margin: 10px 50% 10px 10px;
-    background-color: #bcb5ce;
-
-}
-
-.articuloTiposYoga {
-
-    margin: 20px 0px 10px 10px;
-
-}
-
 /* FOOTER  */
 
 
