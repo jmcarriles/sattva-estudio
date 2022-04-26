@@ -95,8 +95,8 @@ main {
         background-color: #bcb5ce;
         opacity: 5;
         font-weight: 500;
-        background: rgb(255, 255, 255);
-        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 10%, rgba(188, 181, 206, 1) 45%, rgba(188, 181, 206, 1) 100%);
+        background: rgb(255,255,255);
+background: linear-gradient(321deg, rgba(255,255,255,1) 0%, rgba(195,192,203,1) 42%, rgba(188,181,206,1) 52%, rgba(178,168,203,1) 70%, rgba(162,148,198,1) 87%);
     }
 
 }
@@ -217,9 +217,11 @@ h4 {
 
 /* FOOTER  */
 
+
+
 .custom-footer {
     background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(188, 181, 206, 1) 53%, rgba(188, 181, 206, 1) 100%);
+    background: linear-gradient(321deg, rgba(255, 255, 255, 1) 0%, rgba(195, 192, 203, 1) 42%, rgba(188, 181, 206, 1) 52%, rgba(178, 168, 203, 1) 70%, rgba(162, 148, 198, 1) 87%);
     border-bottom: none;
     bottom: 0;
     position: relative;
@@ -229,6 +231,7 @@ h4 {
 .border-footer {
     border-bottom: 1px solid black;
 }
+
 
 
 
