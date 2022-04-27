@@ -114,7 +114,7 @@ main {
 
     }
 
-    .active {
+    .active-custom {
         color: black;
         border-bottom: 1.5px solid #bb7d8e;
         transition: border-bottom .15s;
@@ -199,7 +199,15 @@ main {
 
 /* GALERIA */
 
-.gallery {
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out;
+    animation-iteration-count: infinite;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+/* .gallery {
     margin: 50px;
     margin-top: 200px;
     display: flex;
@@ -213,7 +221,7 @@ main {
 
     width: 500px;
 }
-
+ */
 /* FORMULARIO DE CONTACTO */
 
 .formularioContacto {
