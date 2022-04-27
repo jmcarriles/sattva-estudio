@@ -203,9 +203,7 @@ main {
     transition: transform 2s ease, opacity .5s ease-out;
     animation-iteration-count: infinite;
 }
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 100%;
-}
+
 
 /* .gallery {
     margin: 50px;
