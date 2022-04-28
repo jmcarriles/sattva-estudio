@@ -85,7 +85,9 @@ main {
     font-size: 20px;
     justify-content: flex-end;
     font-weight: 500;
-    
+    background-color: #f1f1fb;
+
+
 }
 
 
@@ -96,8 +98,8 @@ main {
         background-color: #bcb5ce;
         opacity: 5;
         font-weight: 500;
-        background: rgb(255, 255, 255);
-        background: linear-gradient(321deg, rgba(255, 255, 255, 1) 0%, rgba(195, 192, 203, 1) 42%, rgba(188, 181, 206, 1) 52%, rgba(178, 168, 203, 1) 70%, rgba(162, 148, 198, 1) 87%);
+        background-color: #e2e8f2;
+        /* background: linear-gradient(321deg, rgba(255, 255, 255, 1) 0%, rgba(195, 192, 203, 1) 42%, rgba(188, 181, 206, 1) 52%, rgba(178, 168, 203, 1) 70%, rgba(162, 148, 198, 1) 87%); */
     }
 
 }
@@ -169,24 +171,25 @@ main {
     height: 500px;
 }
 
-.contenedorTiposYoga{
-    background: rgb(255, 255, 255);
-    background: linear-gradient(321deg, rgba(255, 255, 255, 1) 0%, rgba(195, 192, 203, 1) 42%, rgba(188, 181, 206, 1) 52%, rgba(178, 168, 203, 1) 70%, rgba(162, 148, 198, 1) 87%);
+.contenedorTiposYoga {
+    background-color: #e8e7f9;
 }
 
 .col-lg-6 p {
     font-size: large;
 }
+
 /* FOOTER  */
 
 
 
 .custom-footer {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(321deg, rgba(255, 255, 255, 1) 0%, rgba(195, 192, 203, 1) 42%, rgba(188, 181, 206, 1) 52%, rgba(178, 168, 203, 1) 70%, rgba(162, 148, 198, 1) 87%);
+    background-color: #bdc4dc;
+    /*   background: linear-gradient(321deg, rgba(255, 255, 255, 1) 0%, rgba(195, 192, 203, 1) 42%, rgba(188, 181, 206, 1) 52%, rgba(178, 168, 203, 1) 70%, rgba(162, 148, 198, 1) 87%); */
     border-bottom: none;
     bottom: 0;
     position: relative;
+    
 
 }
 
@@ -205,21 +208,6 @@ main {
 }
 
 
-/* .gallery {
-    margin: 50px;
-    margin-top: 200px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.gallery img {
-
-    width: 500px;
-}
- */
 /* FORMULARIO DE CONTACTO */
 
 .formularioContacto {
