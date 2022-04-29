@@ -154,15 +154,6 @@ main {
     }
 }
 
-/* ARTICULO PRINCIPAL  */
-
-.img-content img {
-    width: 100%;
-    height: 100vh;
-    display: block;
-}
-
-
 /* ARTICULO CLASES VIRTUALES */
 
 
@@ -185,7 +176,6 @@ main {
 
 .custom-footer {
     background-color: #bdc4dc;
-    /*   background: linear-gradient(321deg, rgba(255, 255, 255, 1) 0%, rgba(195, 192, 203, 1) 42%, rgba(188, 181, 206, 1) 52%, rgba(178, 168, 203, 1) 70%, rgba(162, 148, 198, 1) 87%); */
     border-bottom: none;
     bottom: 0;
     position: relative;
@@ -285,6 +275,7 @@ textarea {
         align-items: center;
         justify-items: center;
         gap: 20px;
+    
     }
 
     .mapContacto iframe {
