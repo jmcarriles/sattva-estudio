@@ -93,14 +93,14 @@ textarea {
   font-size: 20px;
   justify-content: flex-end;
   font-weight: 500;
-  background-color: #f1f1fb;
+  background-color: #e2e8f2;
   align-items: center; }
 
 @media only screen and (max-width: 992px) {
   .navbar {
     font-size: 20px;
     justify-content: flex-end;
-    background-color: #bcb5ce;
+    background-color: #e2e8f2;
     opacity: 5;
     font-weight: 500;
     background-color: #e2e8f2; } }

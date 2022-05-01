@@ -2,7 +2,7 @@
     font-size: 20px;
     justify-content: flex-end;
     font-weight: 500;
-    background-color: #f1f1fb;
+    background-color: $color-nav;
     align-items: center;
 
 }
@@ -15,7 +15,7 @@
         background-color: $color-nav;
         opacity: 5;
         font-weight: 500;
-        background-color: #e2e8f2;
+        background-color: $color-nav;
     }
 
 }
