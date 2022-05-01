@@ -3,7 +3,7 @@
     justify-content: flex-end;
     font-weight: 500;
     background-color: #f1f1fb;
-
+    align-items: center;
 
 }
 
@@ -22,18 +22,22 @@
 
 @media only screen and (min-width: 992px) {
 
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
 
-
-    .navbar-light .navbar-nav .nav-link:hover {
-        color: black;
-        border-bottom: 1.5px solid $color-hover;
-        transition: border-bottom .15s;
-        padding-bottom: 4px;
+                &:hover {
+                    border-bottom: 1.5px solid $color-hover;
+                    transition: border-bottom .15s;
+                    padding-bottom: 4px;
+                }
+            }
+        }
 
     }
 
     .active-custom {
-        color: black;
+        
         border-bottom: 1.5px solid $color-hover;
         transition: border-bottom .15s;
         padding-bottom: 4px;
@@ -42,10 +46,6 @@
 }
 
 
-.navbar-nav {
-    align-items: center;
-
-}
 
 @media (min-width: 992px) {
 
