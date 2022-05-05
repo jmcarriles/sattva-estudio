@@ -96,6 +96,9 @@ textarea {
   background-color: #e2e8f2;
   align-items: center; }
 
+.navbar-nav {
+  align-items: center; }
+
 @media only screen and (max-width: 992px) {
   .navbar {
     font-size: 20px;
@@ -121,12 +124,6 @@ textarea {
 
 .navbar-collapse {
   justify-content: center; }
-
-@media only screen and (min-width: 992px) {
-  .contacto {
-    justify-content: flex-end; }
-  .sattvaLogo {
-    margin-left: 0; } }
 
 .banner {
   padding: 110px;

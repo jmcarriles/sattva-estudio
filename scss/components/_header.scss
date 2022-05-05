@@ -7,6 +7,10 @@
 
 }
 
+.navbar-nav {
+    align-items: center;
+}
+
 
 @media only screen and (max-width: 992px) {
     .navbar {
@@ -51,6 +55,7 @@
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1.5rem;
         padding-left: 1.5rem;
+    
     }
 }
 
@@ -58,16 +63,6 @@
     justify-content: center;
 }
 
-@media only screen and (min-width: 992px) {
-
-    .contacto {
-        justify-content: flex-end;
-    }
-
-    .sattvaLogo {
-        margin-left: 0;
-    }
-}
 
 .banner {
     padding: 110px;
