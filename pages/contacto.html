@@ -57,6 +57,7 @@
                         <a class="nav-link active-custom" aria-current="page" href="#">Contacto</a>
                     </div>
                 </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -67,19 +68,19 @@
             <input type="hidden" name="contact_number">
             <div>
                 <label for="nombre-completo">Nombre completo: </label>
-                <input type="text" placeholder="Nombre completo" name="nombre-completo" required>
+                <input id="nombre-completo" type="text" placeholder="Nombre completo" name="nombre-completo" required>
             </div>
             <div>
                 <label for="telefono">Telefono: </label>
-                <input type="tel" placeholder="Telefono" name="telefono" required>
+                <input id="telefono" type="tel" placeholder="Telefono" name="telefono" required>
             </div>
             <div>
                 <label for="email">Email: </label>
-                <input type="email" name="email" placeholder="Email" required>
+                <input id="email" type="email" name="email" placeholder="Email" required>
             </div>
             <div>
                 <label for="mensaje">Tenes una consulta? Escribinos :) </label>
-                <textarea name="mensaje" cols="30" rows="10" placeholder="En que te podemos ayudar?"></textarea>
+                <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="En que te podemos ayudar?"></textarea>
             </div>
             <div>
                 <input type="submit" value="Enviar">
