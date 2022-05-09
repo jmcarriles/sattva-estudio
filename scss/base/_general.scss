@@ -29,3 +29,14 @@ main {
     width: 55px;
 
 }
+
+.parrafoExtended{
+
+    color:black;
+    text-align: justify;
+}
+
+.parrafo{
+    @extend .parrafoExtended;
+    background-color: aqua;
+}

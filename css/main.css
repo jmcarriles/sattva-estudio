@@ -21,6 +21,13 @@ main {
 .sattvaLogo {
   width: 55px; }
 
+.parrafoExtended, .parrafo {
+  color: black;
+  text-align: justify; }
+
+.parrafo {
+  background-color: aqua; }
+
 .formularioContacto {
   width: 90%;
   padding: 20px;

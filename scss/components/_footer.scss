@@ -1,11 +1,11 @@
 .custom-footer {
-    background-color: $color-footer;
+    background-color: map-get($color, color-terciario);
     border-bottom: none;
     bottom: 0;
     position: relative;
-    
 
 }
+
 
 .border-footer {
     border-bottom: 1px solid black;

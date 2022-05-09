@@ -20,7 +20,7 @@ select {
 
 input[type=submit] {
     width: 100%;
-    background-color: $color-hover;
+    background-color: map-get($color, color-principal);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -30,7 +30,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: $color-hover;
+    background-color: map-get($color, color-principal);
 
 }
 
@@ -51,8 +51,7 @@ textarea {
     padding: 12px 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
+    @include aliniacion-center;
     height: 500px;
     gap: 20px;
 }
@@ -71,8 +70,7 @@ textarea {
         padding: 12px 20px;
         display: grid;
         grid-template-columns: 1fr;
-        align-items: center;
-        justify-items: center;
+        @include aliniacion-center;
         gap: 20px;
     }
 

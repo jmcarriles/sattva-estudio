@@ -2,7 +2,7 @@
     font-size: 20px;
     justify-content: flex-end;
     font-weight: 500;
-    background-color: $color-nav;
+    background-color: map-get($color, color-secundario);
     align-items: center;
 
 }
@@ -16,7 +16,7 @@
     .navbar {
         font-size: 20px;
         justify-content: flex-end;
-        background-color: $color-nav;
+        background-color: map-get($color, color-secundario);
         opacity: 5;
         font-weight: 500;
     }
@@ -30,7 +30,7 @@
             .nav-link {
 
                 &:hover {
-                    border-bottom: 1.5px solid $color-hover;
+                    border-bottom: 1.5px solid map-get($color, color-principal);
                     transition: border-bottom .15s;
                     padding-bottom: 4px;
                 }
@@ -41,7 +41,7 @@
 
     .active-custom {
         
-        border-bottom: 1.5px solid $color-hover;
+        border-bottom: 1.5px solid map-get($color, color-principal);
         transition: border-bottom .15s;
         padding-bottom: 4px;
 

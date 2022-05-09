@@ -1,5 +1,12 @@
-$color-hover: #bb7d8e;
-$color-nav: #e2e8f2;
-$color-footer: #bdc4dc;
+@mixin aliniacion-center {
+    align-items: center;
+    justify-items: center;
+}
+$color:(
+    color-principal:#bb7d8e,
+    color-secundario:#e2e8f2,
+    color-terciario: #bdc4dc
+);
+
 $font-general:'Montserrat', sans-serif;
 
