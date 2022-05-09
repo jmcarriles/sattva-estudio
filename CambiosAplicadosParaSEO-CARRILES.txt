@@ -1,0 +1,32 @@
+CAMBIOS REALIZADOS PARA APLICAR SEO
+
+index.html 
+
+Title: "Sattva Estudio | HOME"
+Description: "Contiene los datos de la fundadora de Sattva Estudio, nuestros objetivos y una descripcion de quienes somos"
+Keywords: "yoga para todos, principiantes, equilibrio, autoconocimiento, bienestar, mangone, sattva, yoga para embarazas"
+
+clasesvirtuales.html
+
+Title: "Sattva Estudio | Clases Virtuales"
+Description: "Tipos de clases de yoga en la cual nos especializamos"
+Keywords: "yoga para todos, clases principiantes, equilibrio, autoconocimiento, bienestar, mangone, sattva, clases virtuales"
+
+contacto.html
+
+Title: "Sattva Estudio | Contacto"
+Description: "Formulario de contacto para poder comunicarte con nosotros"
+Keywords: "yoga para todos, principiantes, equilibrio, autoconocimiento, bienestar, mangone, sattva, formulario de contacto"
+
+galeria.html
+
+Title: "Sattva Estudio | Galeria"
+Description: "Galeria de fotos, con nuestras clases y ejemplos de variantes de Yoga"
+Keywords: "yoga para todos, principiantes, equilibrio, autoconocimiento, bienestar, mangone, sattva, galeria de fotos"
+
+horariospresenciales.html
+
+Title: "Sattva Estudio | Horarios"
+Description: "Horarios de nuestras clases presenciales, donde se encuentran nuestras direcciones y cedes"
+Keywords: "yoga para todos, principiantes, equilibrio, autoconocimiento, bienestar, mangone, sattva, horarios, cedes"
+
