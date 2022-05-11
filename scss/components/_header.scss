@@ -40,7 +40,7 @@
     }
 
     .active-custom {
-        
+
         border-bottom: 1.5px solid map-get($color, color-principal);
         transition: border-bottom .15s;
         padding-bottom: 4px;
@@ -55,7 +55,7 @@
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1.5rem;
         padding-left: 1.5rem;
-    
+
     }
 }
 
@@ -69,17 +69,24 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    color: white;
-    font-size: 25px;
+    color: map-get($color, color-blanco);
     background-repeat: no-repeat;
     background-size: 100%;
     background-image: url(../images/yoga-banner-home99.jpg);
+
+    h1 {
+        font-size: map-get($font-size, font-big);
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .banner {
-        font-size: 15px;
+        font-size: map-get($font-size, font-medium);
         padding: 40px;
+        
+        h1 {
+            font-size: map-get($font-size, font-medium);
+        }
     }
 }
 

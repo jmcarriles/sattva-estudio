@@ -131,15 +131,18 @@ textarea {
   justify-content: center;
   text-align: center;
   color: white;
-  font-size: 25px;
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url(../images/yoga-banner-home99.jpg); }
+  .banner h1 {
+    font-size: 45px; }
 
 @media only screen and (max-width: 992px) {
   .banner {
-    font-size: 15px;
-    padding: 40px; } }
+    font-size: 25px;
+    padding: 40px; }
+    .banner h1 {
+      font-size: 25px; } }
 
 .titleBanner {
   animation: 4s animacionBanner ease-out;

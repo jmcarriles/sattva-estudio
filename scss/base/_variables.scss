@@ -5,8 +5,12 @@
 $color:(
     color-principal:#bb7d8e,
     color-secundario:#e2e8f2,
-    color-terciario: #bdc4dc
+    color-terciario: #bdc4dc,
+    color-blanco:white
 );
-
+$font-size:(
+    font-big:45px,
+    font-medium:25px
+);
 $font-general:'Montserrat', sans-serif;
 
