@@ -30,7 +30,7 @@
             .nav-link {
 
                 &:hover {
-                    border-bottom: 1.5px solid map-get($color, color-principal);
+                    border-bottom: 1px solid map-get($color, color-principal);
                     transition: border-bottom .15s;
                     padding-bottom: 4px;
                 }
