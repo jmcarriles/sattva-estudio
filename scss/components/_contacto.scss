@@ -51,7 +51,6 @@ textarea {
     padding: 12px 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    @include aliniacion-center;
     height: 500px;
     gap: 20px;
 }
