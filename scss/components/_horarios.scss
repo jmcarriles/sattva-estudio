@@ -6,7 +6,7 @@
 .articuloHorarios h4 {
     margin: 20px;
     text-align: center;
-    background-color: #bcb5ce;
+    background-color: map-get($color , color-terciario);
 }
 
 .articuloHorarios p {
